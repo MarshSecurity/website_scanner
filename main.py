@@ -85,10 +85,10 @@ create_links_folder()
 
 
 choice_text = f"""
-[*] 1. Agar siz {website_url} ning admin panelini qidirmoqchi bo'lsangiz 1 yozing ..
-[*] 2. Agar siz {website_url} ning subdomain larini qidirmoqchi bo'lsangiz 2 yozing ..
-[*] 3. Agar siz {website_url} ning admin panelini ham va subdomainini ham qidirmoqchi bo'lsangiz 3 yozing ..
-[*] 4. Agar siz dasturni to'xtatoqchi bo'lsangiz ENTER ni bosing ..
+[*] 1. Admin Panel Finder
+[*] 2. Subdomain Finder
+[*] 3. Admin Panel and Subdomain Finder
+[*] 4. Press Enter to exit ...
 """
 print(Fore.BLUE + choice_text + Fore.RESET)
 choice = input(Fore.YELLOW + "Qaysi birini tanlaysiz ? ( dasturni to'xtatish uchun ENTER ni bosing)  --->   " + Fore.RESET)
